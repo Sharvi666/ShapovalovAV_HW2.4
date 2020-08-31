@@ -14,10 +14,9 @@ class LogInViewController: UIViewController {
     @IBOutlet var userPasswordTextField: UITextField!
     
     var user: User?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
     @IBAction func logInAction() {
@@ -58,13 +57,13 @@ extension LogInViewController {
         }
         
         //Работает только в таком виде.
-//        if userNameTextField.text != "User" || userNameTextField.text == "" {
-//            attentionAlert(title: "Wrong format", message: "Enter your username")
-//            userNameTextField.text = ""
-//        }
-//        if userPasswordTextField.text != "1234" || userPasswordTextField.text == "" {
-//            attentionAlert(title: "Wrong format", message: "Enter your password")
-//            userPasswordTextField.text = ""
-//        }
+        //        if userNameTextField.text != "User" || userNameTextField.text == "" {
+        //            attentionAlert(title: "Wrong format", message: "Enter your username")
+        //            userNameTextField.text = ""
+        //        }
+        //        if userPasswordTextField.text != "1234" || userPasswordTextField.text == "" {
+        //            attentionAlert(title: "Wrong format", message: "Enter your password")
+        //            userPasswordTextField.text = ""
+        //        }
     }
 }
