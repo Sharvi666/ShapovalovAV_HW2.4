@@ -121,7 +121,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="eE3-s0-ebE"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Welcome" id="yhB-UE-1b7"/>
+                    <tabBarItem key="tabBarItem" title="Welcome" image="person" catalog="system" id="yhB-UE-1b7"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="helloUserLabel" destination="eNt-kF-W7V" id="r8Y-a9-758"/>
@@ -160,11 +160,15 @@
                         <color key="backgroundColor" red="0.62404638021732051" green="1" blue="0.58690092570113639" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="hfi-LE-PGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Description" id="j8w-n9-WAH"/>
+                    <tabBarItem key="tabBarItem" title="Description" image="book" catalog="system" id="j8w-n9-WAH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CFf-DH-h46" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1894" y="559"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="book" catalog="system" width="128" height="101"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+    </resources>
 </document>
